@@ -1,0 +1,145 @@
+#headingnav{
+    height: 30px;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.col-lg-6{
+    margin-top: 50px;
+}
+
+.nav-item{
+   width: 100px;
+   display: flex;
+   justify-content:space-between ;
+   color: black;
+}
+.navbar{
+    height: 60px;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: black !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555 !important; 
+}
+
+
+.left-side {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.left-side h1 {
+    font-size: 55px;
+}
+
+.left-side p {
+    font-size: 25px; 
+}
+
+.left-side button {
+    font-size: 20px; 
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.right-side img {
+    max-width: 100%;
+}
+
+.custom-btn {
+    background: transparent; 
+    padding: 12px 24px; 
+    font-size: 30px; 
+    font-weight: bold; 
+    /* color: #007bff;  */
+    border-radius: 30px; 
+    cursor: pointer; 
+  }
+  
+  .custom-btn:hover {
+    background-color: #f0f0f0; 
+    color: #007bff; 
+  }
+
+  .custom-btn:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px #007bff; 
+  }
+  /* about styling */
+.aboutus {
+    display: flex;
+    padding: 10px 20px;
+    padding-left: 0px;
+    border: 2px solid  #198754;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 440px;
+}
+
+.aboutus img {
+    margin: 20px 30px; 
+    /* border-radius: 70%; */
+    border: 2px solid #198754;
+    width: 370px;
+}
+
+.About {
+    padding:100px 70px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color:#198754;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+.About p {
+    font-size: large;
+}
+
+.About .content {
+    display: none;
+    margin-top: 0px;
+}
+label:hover{
+    cursor: pointer;
+}
+
+.About input[type="checkbox"] {
+    display: none;
+}
+
+.About input[type="checkbox"]:checked ~ .content {
+    display: block;
+}
+
+.About input[type="checkbox"]:not(:checked) ~ .content {
+    display: none;
+}
+
+/*footer styling */
+footer {
+    background-color:#198754;
+    text-align: center;
+    margin-bottom: 0;
+    border-top: #555;
+}
+footer p{
+    color: white;
+    font-size: larger;
+}
